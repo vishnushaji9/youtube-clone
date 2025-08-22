@@ -1,0 +1,113 @@
+.header{
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(213, 213, 213);
+  z-index: 100;
+
+}
+.leftsection{
+  display: flex;
+  align-items: center;
+
+}
+
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.youtube-logo{
+  height: 20px;
+  cursor: pointer;
+}
+.middlesection{
+  flex: 1;
+  margin-left: 84px;
+  margin-right: 35px;
+  max-width: 455px;
+  display: flex;
+  align-items: center;
+}
+.searchbox{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(207, 207, 207);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.searchbox::placeholder{
+  font-family: Roboto , Arial;
+  font-size: 16px;
+
+}
+.searchbtn{
+ height: 39px;
+ width: 64px;
+ border: 1px;
+ border-style: solid;
+ border-width: 1px;
+ border-color: rgb(207, 207, 207);
+ background-color:rgb(247, 247, 247);
+ padding-top: 4px;
+ margin-left: -1px;
+}
+.searchicon{
+  height: 24px;
+  cursor: pointer;
+}
+.search-mic-icon{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  border-radius:20px;
+  border: none;
+  padding-top: 4px;
+  background-color:rgb(247, 247, 247); ;
+}
+.micicon{
+  height: 24px;
+  cursor: pointer;
+}
+.rightsection{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload{
+  height: 24px;
+  cursor: pointer;
+}
+.youtubeapp{
+  height: 24px;
+  cursor: pointer;
+}
+.notification{
+  height: 24px;
+  cursor: pointer;
+}
+.profilepic{
+  height: 32px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+
